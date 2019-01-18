@@ -2,13 +2,13 @@
 
 ## 渐进符号
 
-大O符号 T(N) = O(f(N)) T(N) <= c * f(N)
+大O符号 T(N) = O(f(N)) T(N) <= c * f(N) (an inclusive upper bound)
 
 大Ω符号 T(N) = Ω(f(N)) T(N) >= c * f(N)
 
 大Θ符号 T(N) = Θ(f(N)) T(N) = O(f(N)) && T(N) = Ω(f(N))
 
-小o符号 T(N) = o(f(N)) T(N) =
+小o符号 T(N) = o(f(N)) T(N) < c * f(N) (a strict upper bound)
 
 * T1(N) + T2(N) = max(O(f(N)), O(g(N))
 
